@@ -59,7 +59,7 @@ export function FragmentWeb({ data }: Props) {
         className="h-full w-full"
         sandbox="allow-forms allow-scripts allow-same-origin"
         loading="lazy"
-        src={data.sandboxUrl}
+        src={data.sandboxUrl} 
       />
     </div>
   );
